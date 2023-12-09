@@ -10,6 +10,15 @@
     <!-- font awsome -->
     <link rel="stylesheet" href="css/all.min.css">
     <script src="js/all.min.js" defer></script>
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- wow.js -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
     <!-- custem style -->
     <style>
         * {
@@ -25,7 +34,7 @@
     </style>
 </head>
 <body style="font-family: 'times';">
-    <nav style="letter-spacing: .2rem;" class="navbar position-fixed w-100 navbar-expand-md bg-white position-relative z-3 shadow-lg">
+    <nav style="letter-spacing: .2rem;" class="navbar position-fixed top-0 w-100 navbar-expand-md bg-white position-relative z-3 shadow-lg">
         <div class="container">
             <a class="navbar-brand btn btn-outline-secondary border-0" href="#">Gourmet au Catering</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,19 +58,19 @@
             </div>
         </div>
     </nav>
-    <div class="landing position-relative w-100 overflow-hidden">
-        <img src="img/hamburger.jpg" class="w-100">
+    <div class="landing mt-5 position-relative w-100 overflow-hidden">
+        <img src="img/hamburger.jpg" class="w-100 wow fadeInLeft data-wow-duration='2s'">
         <div class="container ">
-            <h1 class="position-absolute h-100 w-100 top-0 left-10 d-flex align-items-end pb-4 ">Le Catering </h1>
+            <h1 class="position-absolute h-100 w-100 top-0 left-10 d-flex align-items-end pb-4 animate__animated animate__bounce ">Le Catering </h1>
         </div>
     </div>
     <div id="about" class="about">
         <div class="container my-5 py-5">
             <section class="row py-5 justify-content-center align-items-center">
-                <div class="img col-12 col-md-6 mb-4 mb-md-0">
+                <div class="img col-12 col-md-6 mb-4 mb-md-0 wow fadeInLeft data-wow-duration='2s' data-wow-offset='10'">
                     <img src="img/tablesetting2.jpg" class="img-fluid">
                 </div>
-                <div class="text col-12 col-md-6 text-center">
+                <div class="text col-12 col-md-6 text-center wow fadeInRight data-wow-duration='2s' data-wow-offset='10'">
                     <h2 class="fs-1">About Catering</h2>
                     <p style="letter-spacing: 3px;" class="text-secondary">tradition since 1889</p>
                     <div style="text-align: justify;" class="fs-5">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</div>
@@ -73,35 +82,35 @@
     <div id="menu" class="menu">
         <div class="container my-5 py-5">
             <div class="fs-1 text-center pb-5">Our Menu</div>
-            <div class="box mb-3 rounded d-flex gap-4 align-items-center border">
+            <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInLeft data-wow-duration='2s' data-wow-offset='50'">
                 <img src="img/bread-basket.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Bread Basket</p>
                     <p class="text-secondary fs-5">Assortment of fresh baked fruit breads and muffins 5.50</p>
                 </div>
             </div>
-            <div class="box mb-3 rounded d-flex gap-4 align-items-center border">
+            <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInRight data-wow-duration='2s' data-wow-offset='50'">
                 <img src="img/honey-almond-granola-with-fruits-756269839.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Honey Almond Granola with Fruits</p>
                     <p class="text-secondary fs-5">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
                 </div>
             </div>
-            <div class="box mb-3 rounded d-flex gap-4 align-items-center border">
+            <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInLeft data-wow-duration='2s' data-wow-offset='50'">
                 <img src="img/belgian-waffle-946236478.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Belgian Waffle</p>
                     <p class="text-secondary fs-5">Vanilla flavored batter with malted flour 7.50</p>
                 </div>
             </div>
-            <div class="box mb-3 rounded d-flex gap-4 align-items-center border">
+            <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInRight data-wow-duration='2s' data-wow-offset='50'">
                 <img src="img/scrambled-eggs-78439515.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Scrambled eggs</p>
                     <p class="text-secondary fs-5">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
                 </div>
             </div>
-            <div class="box mb-3 rounded d-flex gap-4 align-items-center border">
+            <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInLeft data-wow-duration='2s' data-wow-offset='50'">
                 <img src="img/blueberry-pancakes-849952202.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Blueberry Pancakes</p>
@@ -114,12 +123,12 @@
     <div id="contact" class="contact">
         <div class="container py-5">
             <div class="fs-1 py-5" style="letter-spacing: .2rem;">Contact</div>
-            <div class="info">
+            <div class="info wow fadeInRight data-wow-duration='2s' data-wow-offset='50'">
                 <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
                 <p class="text-success">Catering Service, 42nd Living St, 43043 New York, NY</p>
                 <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
             </div>
-            <form class="d-flex flex-column gap-1">
+            <form class="d-flex flex-column gap-1 wow fadeInLeft data-wow-duration='2s' data-wow-offset='50'">
                 <input type="text" placeholder="Name" class="w-100 border-0 border-bottom p-3">
                 <input type="text" placeholder="How many people" class="w-100 border-0 border-bottom p-3">
                 <input type="datetime-local" value="2020-11-16T20:00" class="w-100 border-0 border-bottom p-3">
@@ -129,7 +138,7 @@
         </div>
     </div>
     <div class="footer bg-body-secondary">
-        <p class="fs-4 text-center py-3 mb-0">Made with <i class="fa-solid fa-heart text-danger"></i> by <span class="text-success">Abdo</span> </p>
+        <p class="fs-4 text-center py-3 mb-0">Made with <i class="fa-solid fa-heart text-danger animate__animated animate__heartBeat animate__infinite"></i> by <span class="text-success">Abdo</span> </p>
     </div>
 </body>
 </html>
