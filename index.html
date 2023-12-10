@@ -31,10 +31,57 @@
         html {
             scroll-behavior: smooth;
         }
+        @media(max-width: 575px) {
+            nav {
+                letter-spacing: .1rem !important;
+                font-size: .5rem !important;
+            }
+            .about .container,
+            .menu .container,
+            .contact .container {
+                margin: 10px 0 !important;
+                padding-top: 10px !important;
+                padding-bottom: 10px !important;
+            }
+            .about .container div.img {
+                width: 200px;
+                align-self: center !important;
+            }
+            .about .container .text div {
+                font-size: 1rem !important;
+            }
+            .menu .container .box img {
+                width: 100px !important;
+            }
+            .menu .container .box .text p:first-child {
+                font-size: .9rem !important;
+                line-height: normal;
+                letter-spacing: .1rem !important;
+            }
+            .menu .container .box .text p:nth-child(2) {
+                font-size: .7rem !important;
+            }
+            .contact .container .info {
+                font-size: .8rem;
+            }
+        }
+        /* @media(min-width: 576px) {
+
+        }
+        @media(min-width: 768px) {
+
+        }
+        @media(min-width: 992px) {
+
+        }
+        @media(min-width: 1200px) {
+
+        } */
+
     </style>
 </head>
 <body style="font-family: 'times';">
-    <nav style="letter-spacing: .2rem;" class="navbar position-fixed top-0 w-100 navbar-expand-md bg-white position-relative z-3 shadow-lg">
+    <nav style="letter-spacing: .2rem;" class="navbar position-fixed top-0 w-100 navbar-expand-md position-relative z-3 shadow-lg bg-white">
         <div class="container">
             <a class="navbar-brand btn btn-outline-secondary border-0" href="#">Gourmet au Catering</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,9 +111,9 @@
             <h1 class="position-absolute h-100 w-100 top-0 left-10 d-flex align-items-end pb-4 animate__animated animate__bounce ">Le Catering </h1>
         </div>
     </div>
-    <div id="about" class="about">
+    <div id="about" class="about ">
         <div class="container my-5 py-5">
-            <section class="row py-5 justify-content-center align-items-center">
+            <section class="row py-5 justify-content-center align-items-center overflow-hidden">
                 <div class="img col-12 col-md-6 mb-4 mb-md-0 wow fadeInLeft data-wow-duration='2s' data-wow-offset='10'">
                     <img src="img/tablesetting2.jpg" class="img-fluid">
                 </div>
@@ -79,39 +126,39 @@
         </div>
     </div>
     <hr class="border-secondary">
-    <div id="menu" class="menu">
+    <div id="menu" class="menu overflow-hidden">
         <div class="container my-5 py-5">
             <div class="fs-1 text-center pb-5">Our Menu</div>
             <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInLeft data-wow-duration='2s' data-wow-offset='50'">
-                <img src="img/bread-basket.png" class="rounded-start" style="width: 150px;" >
+                <img src="img/bread-basket-350839171.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Bread Basket</p>
                     <p class="text-secondary fs-5">Assortment of fresh baked fruit breads and muffins 5.50</p>
                 </div>
             </div>
             <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInRight data-wow-duration='2s' data-wow-offset='50'">
-                <img src="img/honey-almond-granola-with-fruits-756269839.png" class="rounded-start" style="width: 150px;" >
+                <img src="img/honey-almond-granola-with-fruits-192532718.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Honey Almond Granola with Fruits</p>
                     <p class="text-secondary fs-5">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
                 </div>
             </div>
             <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInLeft data-wow-duration='2s' data-wow-offset='50'">
-                <img src="img/belgian-waffle-946236478.png" class="rounded-start" style="width: 150px;" >
+                <img src="img/belgian-waffle-880467228.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Belgian Waffle</p>
                     <p class="text-secondary fs-5">Vanilla flavored batter with malted flour 7.50</p>
                 </div>
             </div>
             <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInRight data-wow-duration='2s' data-wow-offset='50'">
-                <img src="img/scrambled-eggs-78439515.png" class="rounded-start" style="width: 150px;" >
+                <img src="img/scrambled-eggs-145705223.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Scrambled eggs</p>
                     <p class="text-secondary fs-5">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
                 </div>
             </div>
             <div class="box mb-3 rounded d-flex gap-4 align-items-center border wow fadeInLeft data-wow-duration='2s' data-wow-offset='50'">
-                <img src="img/blueberry-pancakes-849952202.png" class="rounded-start" style="width: 150px;" >
+                <img src="img/blueberry-pancakes-302544077.png" class="rounded-start" style="width: 150px;" >
                 <div class="text">
                     <p class="fs-3" style="letter-spacing: 3px;">Blueberry Pancakes</p>
                     <p class="text-secondary fs-5">With syrup, butter and lots of berries 8.50</p>
@@ -120,9 +167,9 @@
         </div>
     </div>
     <hr class="border-secondary">
-    <div id="contact" class="contact">
+    <div id="contact" class="contact overflow-hidden">
         <div class="container py-5">
-            <div class="fs-1 py-5" style="letter-spacing: .2rem;">Contact</div>
+            <div class="fs-1 pb-3" style="letter-spacing: .2rem;">Contact</div>
             <div class="info wow fadeInRight data-wow-duration='2s' data-wow-offset='50'">
                 <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
                 <p class="text-success">Catering Service, 42nd Living St, 43043 New York, NY</p>
